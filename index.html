@@ -15,23 +15,31 @@
             text-align: center;
             background-color: black;
             color: white;
-        }
-        .background-img {
-            width: 100%;
-            height: auto;
-            display: block;
+            background-image: url('http://postimg.cc/kV7jZpMC');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .box {
-            background-color: black;
+            background-color: rgba(0, 0, 0, 0.7);
             padding: 50px;
             font-size: 32px;
             font-weight: bold;
             text-transform: uppercase;
+            border-radius: 10px;
+        }
+        @media (max-width: 768px) {
+            body {
+                background-image: url('http://postimg.cc/xqNPs2GH');
+            }
         }
     </style>
 </head>
 <body>
-    <img src="http://postimg.cc/9RhSztFg" alt="Forest Background" class="background-img">
     <div class="box">FOREST OF SAVIOUR</div>
 </body>
 </html>
